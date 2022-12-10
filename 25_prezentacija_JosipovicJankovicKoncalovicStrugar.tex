@@ -1,7 +1,7 @@
 \documentclass[14pt]{beamer}
 \usepackage{beamerthemeshadow}
 \usepackage{graphicx}
-\usepackage{color}
+\usepackage{color, colortbl}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{makecell}                       %potrebno za formatiranje tabele
@@ -10,6 +10,9 @@
 \usepackage[english, serbian]{babel}        %da ne bi pisalo "Table" nego "Tabela" i slično
 
 \definecolor{electricpurple}{rgb}{0.75, 0.0, 1.0}
+\definecolor{lightpurple}{rgb}{1.0, 0.75, 1.0}
+\definecolor{lightpurple1}{rgb}{1.0, 0.92, 1.0}
+\definecolor{lightpurple2}{rgb}{1.0, 0.97, 1.0}
 \setbeamercolor{structure}{fg=electricpurple}
 
 \def\d{{\fontencoding{T1}\selectfont\dj}}
@@ -71,6 +74,61 @@
     
 \end{frame}
 
+\section{Elektronski analogni računari}
+\begin{frame}[fragile]\frametitle{Elektronski analogni računari}
+	\begin{itemize}
+		\item Prednosti elektronskih analognih računara u odnosu na mehaničke:
+		\begin{itemize}
+			\item manja veličina
+			\item lakša prenosivost
+			\item niža cena
+			\item  veća brzina
+		\end{itemize}
+	\end{itemize}
+\begin{itemize}
+	\item Helmut Helcer (nem. Helmut Hölzer) - prvi elektronski analogni rčunar
+	\begin{itemize}
+		\item operacioni pojačavač
+		\item potenciometar koeficijenta
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Zaključak}
+\begin{frame}[fragile]\frametitle{Zaključak}
+	\begin{scriptsize}
+	\begin{table}
+		\caption{Prvi značajni elektronski analogni računari}
+		\begin{tabular}{| c | c | c |}
+			\hline
+			\rowcolor{lightpurple}
+			\textbf{Razvojni centar} & \textbf{Projekti} & \textbf{Datum} \\
+			\hline
+			\rowcolor{lightpurple1}
+			Američka mornarica & \emph{Ciklon}, \emph{Tajfun}, MIT simulator letenja & 1946 - 1958 \\
+			\rowcolor{lightpurple2}
+			RAND korporacija & RAND analogni računar & 1948 \\
+			\rowcolor{lightpurple1}
+			Američka avijacija & GEDA / BEAC & 1950 \\
+			\rowcolor{lightpurple2}
+			RAE / Elliot Brothers ltd. &TRIDAC & 1950 - 1955 \\
+			\rowcolor{lightpurple1}
+			Engleska elektroindustrija & LACE & 1953 - 1956 \\ 
+			\hline
+		\end{tabular}
+	\end{table}
+	\end{scriptsize}
+
+	\begin{itemize}
+		\item Sažetak
+		\begin{itemize}
+			\item rade nad kontiaunalnim veličinama
+			\item digitalni računari im nisu zamena (i jedni i drugi se simultano koriste)
+			\item primena u astronomiji, matematici, vojnom i vazduhoplovnom inženjerstvu, elektrotehnici...
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
 
 \section{Literatura}
 
